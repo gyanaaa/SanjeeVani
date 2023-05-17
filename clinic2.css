@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+ 
+  
+
+ .filter{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index :1;
+    opacity: .7;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,8,116,1) 33%, rgba(27,9,121,1) 35%, rgba(26,15,125,1) 37%, rgba(25,21,129,1) 39%, rgba(189,11,158,1) 42%, rgba(220,18,179,1) 44%, rgba(235,21,190,0.9950105042016807) 45%, rgba(190,29,169,1) 47%, rgba(145,37,148,1) 49%, rgba(120,52,157,1) 53%, rgba(70,83,174,1) 61%, rgba(183,32,187,1) 67%, rgba(13,118,193,1) 70%, rgba(11,131,201,1) 74%, rgba(0,212,255,1) 100%);
+ }
+  table{
+    position:absolute;
+    z-index: 2;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+    
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: #ba68c8;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+
+  
