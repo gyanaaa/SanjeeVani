@@ -1,6 +1,5 @@
-# Kill-a-byte
+#SANJEEVANI
 Project
-##### SANJEEVANI
 What is it about??
 An e-booth clinic providing medical facilities in rural remote areas. 
 ## Why we chose Sanjeevani.
