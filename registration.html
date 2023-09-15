@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        .body {
+            font-family: Arial, sans-serif;
+            background-image: url("/images/sanjeevani.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-attachment: fixed;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(236, 205, 158);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 6px;
+            text-align: left;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        select {
+            height: 35px;
+        }
+        
+        button {
+            width: 100%;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="your_server_endpoint_here" method="POST">
+            <label for="full_name">Full Name</label>
+            <input type="text" id="full_name" name="full_name" required>
+            
+            <label for="role">Role</label>
+            <select id="role" name="role" required>
+                <option value="doctor">Doctor</option>
+                <option value="assistant">Assistant</option>
+            </select>
+            
+            <label for="aadhar">Aadhar Number</label>
+            <input type="text" id="aadhar" name="aadhar" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
